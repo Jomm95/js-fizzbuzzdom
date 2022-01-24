@@ -19,14 +19,31 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
+    margin:auto;
 }
 
 #box {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width:100px;
-    background-color: red;
+    height: 120px;
+    width:120px;
     margin:15px;
+}
+
+.fizz-buzz {
+    background-color: #f0466f;
+}
+
+.fizz {
+    background-color: #0bd6a1 ;
+}
+
+.buzz {
+    background-color: #ffd166 ;
+}
+
+.default {
+    background-color: #1389b2;
 }
